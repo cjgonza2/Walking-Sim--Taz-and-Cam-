@@ -16,19 +16,19 @@ public class trigger_this : MonoBehaviour
     {
         //print("whats up dawg?");
         //firstPerson.transform.position = warpPoint.transform.position;
-        mySoundSource.Play();
+        //mySoundSource.Play();
         firstPerson.transform.position = warpPoint.transform.position;
     }
 
     void OnTriggerExit()
     {
-        mySoundSource.Pause();
+        //mySoundSource.Pause();
 
         print("I wish for death");
     }
 
     void update()
     {
-        audioClipTime = mySoundSource.time;
+        //audioClipTime = mySoundSource.time;
     }
 }
