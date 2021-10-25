@@ -95,6 +95,7 @@ namespace jsch
     // ------ HELPER FUNCTIONS -------------------------------------- //
         void StartDialog()
         {
+            currentDialogIndex = 0;
             ShowNextDialog();
         }
 
