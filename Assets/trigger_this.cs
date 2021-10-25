@@ -20,12 +20,12 @@ public class trigger_this : MonoBehaviour
         firstPerson.transform.position = warpPoint.transform.position;
     }
 
-    void OnTriggerExit()
-    {
+    //void OnTriggerExit()
+    //{
         //mySoundSource.Pause();
 
-        print("I wish for death");
-    }
+        //print("I wish for death");
+    //}
 
     void update()
     {
