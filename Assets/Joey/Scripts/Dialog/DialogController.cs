@@ -136,8 +136,8 @@ namespace jsch
                 }
                 
                 // play audio
-                if(playSound)
-                    dialogAudio.Play();
+               // if(playSound)
+                    //dialogAudio.Play();
 
                 yield return new WaitForSeconds(timeBetweenTypingChars);
             }          
