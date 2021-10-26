@@ -30503,16 +30503,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215921635}
-  m_LocalRotation: {x: 0.013500122, y: 0.97152656, z: -0.077520646, w: -0.22348258}
-  m_LocalPosition: {x: 0, y: 0, z: 0.79}
+  m_LocalRotation: {x: 0.025327127, y: 0.9678844, z: -0.0126771685, w: -0.24979512}
+  m_LocalPosition: {x: 0, y: 0, z: 0.83039653}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4237615002680035118}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -64.724, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.681, y: -151.038, z: 3.174}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.25, y: 0.45}
+  m_AnchoredPosition: {x: -4.2193336, y: 0.42079258}
   m_SizeDelta: {x: 10.5956, y: 2.6489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215921637
@@ -30564,8 +30564,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3
-  m_fontSizeBase: 3
+  m_fontSize: 4.29
+  m_fontSizeBase: 4.29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -73931,12 +73931,12 @@ MonoBehaviour:
     textColor: {r: 0, g: 0, b: 0, a: 0}
     isPlayerSpeaking: 0
     clearAfterWait: 0
-    tmp: {fileID: 0}
+    tmp: {fileID: 1215921637}
     waitForClick: 0
-    waitTime: 0
-  typingSpeed: 0
-  onlyShowOnce: 1
-  playSound: 1
+    waitTime: 5
+  typingSpeed: 1
+  onlyShowOnce: 0
+  playSound: 0
 --- !u!33 &5865768386987374855
 MeshFilter:
   m_ObjectHideFlags: 0
